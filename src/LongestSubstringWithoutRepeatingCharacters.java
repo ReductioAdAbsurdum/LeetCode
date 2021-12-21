@@ -1,8 +1,15 @@
 import java.util.HashMap;
 
+
+
 public class LongestSubstringWithoutRepeatingCharacters
 {
-    public int lengthOfLongestSubstring(String s)
+    public static void main(String[] args)
+    {
+        System.out.println(lengthOfLongestSubstring("aabbcd"));
+    }
+
+    public static int lengthOfLongestSubstring(String s)
     {
         if(s == null)
         {
